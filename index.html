@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+    
+    <!--=============== LENIS JS ===============-->
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        html.lenis, html.lenis body {
+            height: auto;
+        }
+        .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+        }
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+        .lenis.lenis-stopped {
+            overflow: hidden;
+        }
+        .lenis.lenis-smooth iframe {
+            pointer-events: none;
+        }
+    </style>
+
+    <title>Education for All | Industry-Focused Student Education & Internships</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Education for All</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== Theme Change Button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Welcome to</span>
+                    <h1 class="home__name">Education for All</h1>
+                    <h3 class="home__education">Industry-Focused Student Education & Internships</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/course_catalog.pdf" class="button button--ghost">
+                            Download Course Catalog
+                        </a>
+
+                        <a href="#about" class="button">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/logo.png" alt="Education for All Logo" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/company/rajaj-tech/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/rajaj-tech" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/rajaj.tech/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/rajaj-tech" target="_blank" class="home__social-link">
+                        <i class='bx bxl-youtube'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">Our Mission</span>
+            <h2 class="section__title">About Education for All</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="About Education for All" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Industry-Focused</h3>
+                            <span class="about__subtitle">Tailored for Real-World Demands</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Comprehensive Courses</h3>
+                            <span class="about__subtitle">Hands-On Training & Internships</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">24/7 Support</h3>
+                            <span class="about__subtitle">Dedicated to Your Success</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        At Education for All, our mission is to bridge the gap between academic learning and industry requirements. We offer a wide range of courses and internships that are designed to provide students with the essential knowledge, skills, and real-world experience needed to thrive in today's competitive job market. Our programs are crafted to ensure that you not only learn but also apply your knowledge in practical, industry-focused settings.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section" id="services">
+            <span class="section__subtitle">What We Offer</span>
+            <h2 class="section__title">Our Services</h2>
+
+            <div class="services__container container grid">
+                <div class="services__content">
+                    <h3 class="services__title">Education Programs</h3>
+                    <p class="services__description">
+                        Explore our range of industry-based courses, designed to equip you with the knowledge and skills required to excel in your chosen field.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <h3 class="services__title">Internship Opportunities</h3>
+                    <p class="services__description">
+                        Gain hands-on experience with our internship programs that offer real-world exposure and practical insights into the industry.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <h3 class="services__title">Career Support</h3>
+                    <p class="services__description">
+                        Receive ongoing career guidance and support to help you navigate the job market and achieve your professional goals.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+       <!--=============== GET IN TOUCH ===============-->
+<section class="get-in-touch section" id="get-in-touch">
+    <span class="section__subtitle">Get In Touch</span>
+    <h2 class="section__title">Contact Us</h2>
+
+    <div class="get-in-touch__container container grid">
+        <div class="get-in-touch__info">
+            <h3 class="get-in-touch__title">Reach Out to Us</h3>
+            <p class="get-in-touch__description">We're here to help you with any questions or inquiries you may have. Feel free to contact us using the form below or through our social media channels.</p>
+            <div class="get-in-touch__social">
+                <a href="https://www.linkedin.com/company/rajaj-tech/" target="_blank" class="get-in-touch__social-link">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/rajaj-tech" target="_blank" class="get-in-touch__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.instagram.com/rajaj.tech/" target="_blank" class="get-in-touch__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.youtube.com/channel/rajaj-tech" target="_blank" class="get-in-touch__social-link">
+                    <i class='bx bxl-youtube'></i>
+                </a>
+            </div>
+        </div>
+
+        <form action="mailto:info@rajaj.tech" method="POST" enctype="multipart/form-data" name="ContactForm" class="get-in-touch__form">
+            <div class="get-in-touch__inputs">
+                <div class="get-in-touch__content">
+                    <label for="name" class="get-in-touch__label">Name</label>
+                    <input type="text" id="name" name="name" class="get-in-touch__input" required>
+                </div>
+                <div class="get-in-touch__content">
+                    <label for="email" class="get-in-touch__label">Email</label>
+                    <input type="email" id="email" name="email" class="get-in-touch__input" required>
+                </div>
+            </div>
+
+            <div class="get-in-touch__content">
+                <label for="message" class="get-in-touch__label">Message</label>
+                <textarea id="message" name="message" class="get-in-touch__input get-in-touch__input-message" required></textarea>
+            </div>
+
+            <button type="submit" class="button get-in-touch__button">Send Message</button>
+        </form>
+    </div>
+</section>
+    </main>
+
+   
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevron-up scrollup__icon'></i>
+    </a>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+
+
+
+<!--=============== WORK ===============-->
+<section class="work section" id="work">
+    <span class="section__subtitle">Our Portfolio</span>
+    <h2 class="section__title">Recent Works</h2>
+
+    <div class="work__filters">
+        <span class="work__item active-work" data-filter='all'>All</span>
+        <span class=" work__item" data-filter='.web'>Artificial Intelligence</span>
+        <span class=" work__item" data-filter='.movil'>Ethical Hacking</span>
+        <span class=" work__item" data-filter='.design'>UX/UI Design</span>
+    </div>
+
+    <div class="work__container container grid">
+        <div class="work__card mix web">
+            <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Deep Learning</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix movil">
+            <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Bug Bounty</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix design">
+            <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Figma, Adobe AI</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix web">
+            <img src="assets/img/work4.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Machine Learning</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix movil">
+            <img src="assets/img/work5.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">Pentesting</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+
+        <div class="work__card mix design">
+            <img src="assets/img/work6.jpg" alt="" class="work__img">
+
+            <h3 class="work__title">User Interface Design</h3>
+
+            <a href="#" class="work__button">
+                Demo <i class='bx bx-right-arrow work__icon'></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+  
+
+        
+
+        <!--=============== CONTACT ===============-->
+        <!--=============== CONTACT ===============-->
+<section class="contact-section" id="contact">
+    <span class="section-subtitle">Get in touch</span>
+    <h3 class="section-title">Contact Me</h3>
+
+    <div class="contact-container container grid">
+        <div class="contact-info">
+            <h3 class="contact-info-title">Talk to Me</h3>
+
+            <div class="contact-card">
+                <i class='bx bx-mail-send contact-card-icon'></i>
+                <h3 class="contact-card-title">Email</h3>
+                <span class="contact-card-data">rajaroman529@gmail.com</span>
+
+                <a href="mailto:rajaroman529@gmail.com" target="_blank" class="contact-button">
+                    Write Me <i class='bx bx-right-arrow contact-button-icon'></i>
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <i class='bx bxl-whatsapp contact-card-icon'></i>
+                <h3 class="contact-card-title">WhatsApp</h3>
+                <span class="contact-card-data">8547878136</span>
+
+                <a href="https://api.whatsapp.com/send?phone=+918547878136&text=Hey there!" target="_blank" class="contact-button">
+                    Write Me <i class='bx bx-right-arrow contact-button-icon'></i>
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <i class='bx bxl-instagram contact-card-icon'></i>
+                <h3 class="contact-card-title">Instagram</h3>
+                <span class="contact-card-data">@code_red_rj</span>
+
+                <a href="https://www.instagram.com/code_red_rj/" target="_blank" class="contact-button">
+                    Write Me <i class='bx bx-right-arrow contact-button-icon'></i>
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <i class='bx bxl-youtube contact-card-icon'></i>
+                <h3 class="contact-card-title">YouTube</h3>
+                <span class="contact-card-data">Your YouTube Channel</span>
+
+                <a href="https://www.youtube.com/channel/UCbEFAooRwnOd6DHVVmcxq3g" target="_blank" class="contact-button">
+                    Visit YouTube <i class='bx bx-right-arrow contact-button-icon'></i>
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <i class='bx bxl-linkedin contact-card-icon'></i>
+                <h3 class="contact-card-title">LinkedIn</h3>
+                <span class="contact-card-data">Raja Abilash J</span>
+
+                <a href="https://www.linkedin.com/in/raja-abilash-j-4082b522a/" target="_blank" class="contact-button">
+                    Visit LinkedIn <i class='bx bx-right-arrow contact-button-icon'></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3 class="contact-form-title">Write Me Your Message</h3>
+
+            <form action="" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" placeholder="Enter name" class="form-input">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Mail</label>
+                    <input type="email" id="email" placeholder="Enter email" class="form-input">
+                </div>
+
+                <div class="form-group form-textarea">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" cols="30" rows="10" placeholder="Write your message" class="form-input"></textarea>
+                </div>
+
+                <button class="btn-submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--=============== LENIS SCROLL SCRIPT ===============-->
+<script>
+    const lenis = new Lenis();
+
+    lenis.on('scroll', (e) => {
+        console.log(e);
+    });
+
+    function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+</script>
+
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">RJ</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://github.com/rjroman" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github footer__social-icon'></i>
+                    </a>
+                </li>
+                
+                <li class="footer__social-item">
+                    <a href="mailto:rajaroman529@gmail.com" class="footer__social-link">
+                        <i class='bx bx-mail-send footer__social-icon'></i>
+                    </a>
+                </li>
+                
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/raja-abilash-j-4082b522a/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.instagram.com/code_red_rj/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                <p>&copy; 2023 Raja Abilash J. All rights reserved.</p>
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+ 
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
